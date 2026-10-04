@@ -155,6 +155,10 @@ python3 -m line_follower_az.simulator --laps 3 --speed 0.12 --noise 0.05 --seed 
 
 Outputs lap metrics to the console and writes `telemetry.png` + `track_path.png` to `results/`.
 
+![Headless simulator telemetry — error, velocity, wheel commands](docs/telemetry.png)
+
+![Track path — robot follows the stadium line](docs/track_path.png)
+
 ### Run the Verification Suite (no ROS2 needed)
 
 ```bash
